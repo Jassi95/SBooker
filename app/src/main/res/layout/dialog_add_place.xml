@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <Spinner
+        android:id="@+id/chooseHallSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <Spinner
+        android:id="@+id/choosePlaceSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/addPlace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/addPlace"
+        android:layout_below="@+id/chooseHallSpinner"
+        />
+
+
+</RelativeLayout>

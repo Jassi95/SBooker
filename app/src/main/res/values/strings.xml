@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">SBooker</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Sport booker</string>
+    <string name="nav_header_subtitle">Juho.jaaskelainen@student.lut.fi</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings1">Log in</string>
+    <string name="action_settings2">Log out</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Reservations</string>
+    <string name="menu_slideshow">Admin</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="title_activity_login">Sign in</string>
+
+
+    <string name="prompt_email">User name</string>
+    <string name="email_holder">E-mail</string>
+    <string name="email_ERROR">Invalid email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_password2">Re-type Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome ! "</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="too_short_username">Length 4-16 characters, contains letters, numbers or _ and -</string>
+    <string name="password_no_match">Passwords do not match</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="registerButton">Create a new account</string>
+    <string name="createNewAccount">Create a new account</string>
+
+    <string-array name="Spinner_test_array">
+        <item>Halli yksi</item>
+        <item>Halli kaksi</item>
+        <item>Halli kolme</item>
+    </string-array>
+
+    <string name="addHall">Add new hall</string>
+    <string name="addPlace">Add new place to existing hall</string>
+    <string name="change_password">Change password</string>
+    <string name="change_email">Change email</string>
+    <string name="uEmail">Users email: </string>
+    <string name="uName">Users Username: </string>
+    <string name="deleteUser">Delete user</string>
+    <string name="ResInfo">Add description</string>
+    <string name="ResSport">Add sport</string>
+    <string name="addHallName">Add name of the new hall</string>
+    <string name="typePlace">Type Place</string>
+    <string name="dayOfWeek">day of week(1-7)</string>
+    <string name="startTime">What time does it start(8-23)</string>
+    <string name="howManyMonths">How long in months</string>
+    <string name="statReservation">make static reservation</string>
+</resources>

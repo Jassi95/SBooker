@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "66874959916",
+    "firebase_url": "https://sbooker-355b5.firebaseio.com",
+    "project_id": "sbooker-355b5",
+    "storage_bucket": "sbooker-355b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66874959916:android:5827d42fdaa9bffd7a8989",
+        "android_client_info": {
+          "package_name": "com.example.sbooker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66874959916-vfjlt8m8lc892l64fg6n2npjnc4pg960.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBPY9YDZAA7lQzSz9X4Z4s5uRYRxdv06o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66874959916-vfjlt8m8lc892l64fg6n2npjnc4pg960.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

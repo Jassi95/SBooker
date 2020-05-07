@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <Spinner
+        android:id="@+id/chooseHallSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:id="@+id/choosePlace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/typePlace"
+        android:layout_below="@+id/chooseHallSpinner"
+        />
+
+    <EditText
+        android:id="@+id/dayOfWeek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/choosePlace"
+        android:hint="@string/dayOfWeek"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/startTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dayOfWeek"
+        android:hint="@string/startTime"
+        android:inputType="number" />
+    <EditText
+        android:id="@+id/durationMonths"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/startTime"
+        android:hint="@string/howManyMonths"
+        android:inputType="number" />
+    <EditText
+        android:id="@+id/SportInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/durationMonths"
+        android:hint="@string/ResSport"
+        />
+    <EditText
+        android:id="@+id/StatReservationInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SportInfo"
+        android:hint="@string/ResInfo"
+        />
+
+</RelativeLayout>
