@@ -52,19 +52,22 @@ public class PlaceAddDialog extends AppCompatDialogFragment {
                 }
             }
         });
-        PlaceNameEditText = view.findViewById(R.id.addPlace);
-        hallsSpinner = view.findViewById(R.id.chooseHallSpinner);
-        updateHallSpinner(halls,view);
+        this.PlaceNameEditText = view.findViewById(R.id.addPlace);
+        this.hallsSpinner = view.findViewById(R.id.chooseHallSpinner);
+        updateHallSpinner(halls,null);
         //cancelButton = view.findViewById(R.id.reservationCancelButton);
 
         return builder.create();
     }
 
     private void updateHallSpinner(ArrayList<String> hallKeyArray, View v) {
+        for(String s:hallKeyArray){
+            System.out.print(s+" ");
+        }
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(Objects.requireNonNull(getContext()), android.R.layout.simple_spinner_item, hallKeyArray);
         //System.out.println(getContext().toString()+ " This si the context");
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        hallsSpinner.setAdapter(adapter);
-        hallsSpinner.setSelection(1);
+        this.hallsSpinner.setAdapter(adapter);
+        //hallsSpinner.setSelection(0);
     }
 }
