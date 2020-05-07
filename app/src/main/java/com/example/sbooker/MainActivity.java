@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements ReservationMakeFr
         super.onCreate(savedInstanceState);
 
         bk = new BackGround();
-        bk.populateDB();
+        //bk.populateDB(); //populates database
         this.mainViewModel = new ViewModelProvider(this).get(MainViewModel.class);
 
         setContentView(R.layout.activity_main);
